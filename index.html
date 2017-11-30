@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Dating Quiz</h1>
+      <h2>Donald Trump vs Vladimir Putin</h2>
+      <img src="img/love.jpg">
+      <p>Let's find out who is your perfect soulmate!</p>
+
+      <form id="quiz">
+        <label for="age">Age</label>
+        <input id="age" type="text">
+        <label for="tv">Do you like watching Tv?</label>
+        <input id="tv" type="text">
+        <label for="rich">Are you rich or poor?</label>
+        <select id="rich">
+          <option value="rich">Rich</option>
+          <option value="poor">Poor</option>
+        </select>
+        <label for="food">Do you like Pizza or Ice Cream?</label>
+        <select id="food">
+          <option value="food">Ice Cream</option>
+          <option value="pizza">Pizza</option>
+        </select>
+        <button type="submit" class="btn">Calculate your future love.</button>
+      </form>
+      <div id="match">
+        <p>Through our intense calculations we have found that your match is:</p>
+        <img src="img/trump.jpg" class="trump">
+        <img src="img/putin.jpg" class="putin">
+      </div>
+    </div>
+  </body>
+</html>
