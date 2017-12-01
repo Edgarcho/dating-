@@ -6,13 +6,13 @@ $(document).ready(function() {
     var food = $("select#food").val();
 
     if (age <= 30 && tv ==="yes" && worth ==="rich" && food ==="pizza") {
-        $("#match").removeClass();
-        $("#match").addClass("trump");
-        $("#quote").show();
+        $("#match").show();
+        $(".trump").show();
         $(".putin").hide();
       } else if (age >30 && tv ==="no" && food ==="food") {
-        $("#quote").show();
+        $("#match").show();
         $(".trump").hide();
+        $(".putin").show();
       }
       else {
       alert('Please enter your age.');
